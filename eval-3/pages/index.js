@@ -15,7 +15,7 @@ export default function Home(props) {
         <link rel="icon" href="/favicon.ico" />
       </Head> */}
       <div style={{backgroundColor:'#E5CCFF',width:'100%'}}>
-        <Navbar avatar={avatar_url}/>
+        <Navbar/>
         <div style={{ display: 'flex',justifyContent:'space-evenly'}}>
           <div style={{ width: '300px' }}>
             <img src={avatar_url} alt='my profile' style={{ width: '200px', height: '200px', borderRadius: '50%' }} />
